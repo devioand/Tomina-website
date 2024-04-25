@@ -1,13 +1,20 @@
-import * as React from "react";
-import type { HeadFC, PageProps } from "gatsby";
-import Slider from "../components/Slider";
+import type { HeadFC, PageProps } from 'gatsby';
+import * as React from 'react';
+import Reciepies from '../components/home/Reciepies';
+import Field from '../components/home/Field';
+import FeatureredReciepes from '../components/home/FeaturedReciepies';
+import OurProduct from '../components/home/OurProducts';
+import Header from '../components/home/Header';
 
 const IndexPage: React.FC<PageProps> = () => {
   return (
-    <main className="heading">
-      <h1>Welcome to Devioand Ltd.</h1>
-      <Slider />
-    </main>
+    <div>
+      <Header />
+      <Field />
+      <OurProduct />
+      <FeatureredReciepes />
+      <Reciepies />
+    </div>
   );
 };
 
