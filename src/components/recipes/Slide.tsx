@@ -6,7 +6,7 @@ import img2 from '../../images/Recipes/Rectangle2.png'
 import Slider from '../ui/carousel/Carousel'
 import Card from './Card'
 const Api = [
-    img, img1, img2
+    img, img1, img2, img, img1, img2
 ]
 
 const Slide = () => {
@@ -20,12 +20,13 @@ const Slide = () => {
             spaceBetween: 1,
         },
         800: {
-            slidesPerView: 2,
+            slidesPerView: 2.2,
             spaceBetween: 30,
         },
     };
     return (
-        <Slider centeredSlides={false} breakpoints={breakpoints}>
+        // false
+        <Slider centeredSlides={true} breakpoints={breakpoints}>
             {Api?.map((d: any, _idx: number) => (
                 <SwiperSlide key={`product--key-${_idx}`}>
                     <Card item={d} />

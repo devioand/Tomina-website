@@ -14,7 +14,7 @@ function Hero({ title, discription }) {
                         <div className="w-[3rem] h-[3rem] rounded-full bg-red-900 ml-[.1rem]"></div>
                         <div className="w-[3rem] h-[3rem] rounded-full bg-red-900 ml-[.1rem]"></div>
                     </div>
-                    <div className="absolute max-[767px]:top-0 left-0 right-0 px-[0rem] p-[2rem] md:p-[2rem] md:mt-[.1rem]">
+                    <div className="absolute max-[767px]:top-0 left-0 right-0 px-[0rem] md:p-[2rem]  md:mt-[.1rem]">
                         <Header />
                     </div>
                 </div>
