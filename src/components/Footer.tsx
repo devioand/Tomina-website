@@ -18,7 +18,7 @@ const Footer = () => {
           src={Logo}
           alt="logo"
         />
-        <div className="hidden md:block sm:pt-[40px] pt-5 flex justify-between w-full gap-5 md:flex-nowrap flex-wrap">
+        <div className="hidden md:flex sm:pt-[40px] pt-5 flex justify-between w-full gap-5 md:flex-nowrap flex-wrap">
           <div className="sm:w-[40%] w-full">
             <p className="text-lg font-normal leading-[24px] text-white">
               Sadat Industrial City, District 7. land 7170, Egypt
