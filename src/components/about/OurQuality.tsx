@@ -6,7 +6,7 @@ import Trusted from '../../images/trusted.png';
 const OurQuality = () => {
   return (
     <section className="gradient-bg">
-      <div className="max-w-[1440px] mx-auto flex lg:flex-row flex-col-reverse px-12 xl:px-28 pt-12 pb-4">
+      <div className="max-w-[1536px] mx-auto flex lg:flex-row flex-col-reverse px-12 xl:px-28 pt-12 pb-4">
         <div className="lg:min-w-[50%] w-full">
           <p className="text-white text-[12px] md:text-[20px] font-normal text-justify lg:text-left">
             Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam

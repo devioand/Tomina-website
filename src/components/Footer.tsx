@@ -8,7 +8,7 @@ import Twitter from "../images/svg/Twitter.svg";
 const Footer = () => {
   return (
     <footer className="bg-[#B8AA84] w-full">
-      <div className="xl:py-[45px] lg:py-7 py-5 xl:px-28 px-12 w-full max-w-[1440px] mx-auto">
+      <div className="xl:py-[45px] lg:py-7 py-5 xl:px-28 px-12 w-full max-w-[1536px] mx-auto">
         <img
           className="object-contain object-center"
           src={Logo}
