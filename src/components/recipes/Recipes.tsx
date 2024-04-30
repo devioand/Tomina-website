@@ -1,22 +1,25 @@
-import React from 'react'
-import Slider from './Slide'
+import React from 'react';
+import Slider from './RecipeCarousel';
 
 const Recipes = () => {
-    return (
-        <div>
-            <div>
-                <div className='px-2 md:px-4 lg:px-8 py-12 bg-[#282828]'>
-                    <h1 className='text-center text-[#B8AA84] text-5xl md:text-6xl font-bold py-5'>RECIPES</h1>
-                    <div className='py-4 md:px-7'>
-                        <Slider />
-                    </div>
-                    <div className='flex justify-center items-center'>
-                        <button className='border text-white px-12 py-3 rounded-full '>Learn more</button>
-                    </div>
-                </div>
-            </div>
-        </div>
-    )
-}
+  return (
+    <section className="px-0 mx-0 py-8 md:py-16 bg-[#282828]">
+      <h2 className="text-center text-[#B8AA84] text-[24px] font-[800] md:text-5xl md:font-bold md:pt-12">
+        RECIPES
+      </h2>
+      <div className="pt-8 pb-4 md:pt-16">
+        <Slider />
+      </div>
+      <div className="flex justify-center items-center">
+        <button
+          type="button"
+          className="focus:outline-none border border-2 text-white font-medium rounded-full text-xl px-12 pt-2 pb-3"
+        >
+          Learn more
+        </button>
+      </div>
+    </section>
+  );
+};
 
-export default Recipes
+export default Recipes;

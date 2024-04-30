@@ -1,29 +1,34 @@
-import React from 'react'
-import img from '../../images/Recipes/FrameR.png'
+import React from 'react';
+import img from '../../images/Recipes/FrameR.png';
 
 const Product = () => {
-    return (
-        <div className='w-full bg-[#B8AA84] relative'>
-            <div className='px-3 md:px-4 lg:px-8  gradiant-top py-32'>
-                <div className='flex flex-col-reverse md:flex-row justify-center items-center'>
-                    <div className='py-5  absolute md:left-0 max-[767px]:bottom-10 px-5'>
-                        <p className='md:w-[50vw]  text-sm font-normal md:text-[.9rem] lg:text-[1.2rem] text-white md:text-left '>
-                            Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod
-                            tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim
-                            veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip
-                            ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in
-                            vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla
-                            facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent
-                            luptatum zzril delenit augue duis dolore te feugait nulla facilisi.
-                        </p>
-                    </div>
-                    <div className='md:absolute md:right-0 relative max-[767px]:top-[-10rem]'>
-                        <img src={img} alt='Recips' className='w-[300px] md:w-[400px] ' />
-                    </div>
-                </div>
-            </div>
+  return (
+    <section className="bg-[#B8AA84]">
+      <div className="gradiant-top">
+        <div className="max-w-[1536px] mx-auto flex lg:flex-row flex-col-reverse px-12 xl:px-28 pt-12 pb-4">
+          <div className="lg:min-w-[50%] w-full">
+            <p className="text-white text-[12px] md:text-[20px] font-normal text-justify lg:text-left">
+              Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
+              nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam
+              erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci
+              tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo
+              consequat. Duis autem vel eum iriure dolor in hendrerit in
+              vulputate velit esse molestie consequat, vel illum dolore eu
+              feugiat nulla facilisis at vero eros et accumsan et iusto odio
+              dignissim qui blandit praesent luptatum zzril delenit augue duis
+              dolore te feugait nulla facilisi.
+            </p>
+          </div>
+          <div className="lg:min-w-[50%] w-full z-10 mb-8 lg:mb-0 flex justify-center lg:justify-end items-center">
+            <img
+              src={img}
+              className="sm:w-[300px] md:w-[350px] lg:w-[400px] -mt-[80px] lg:-mt-[120px] lg:-mb-[80px] object-contain object-center"
+            />
+          </div>
         </div>
-    )
-}
+      </div>
+    </section>
+  );
+};
 
-export default Product
+export default Product;

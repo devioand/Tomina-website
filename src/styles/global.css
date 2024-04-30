@@ -4,11 +4,14 @@
 
 .background {
     background-image: url('../images/recipes/fresh.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .videoM {
-    width: 500px;
-    height: 300px;
+    width: 760px;
+    height: 420px;
     box-shadow: 1px 1px 20px black;
 }
 
@@ -52,14 +55,12 @@
 }
 
 .bg-h-gradiant {
-    /* background: linear-gradient(180deg, rgba(165, 30, 30, 0.7849264705882353) 0%, rgba(184, 170, 132, 0.9866071428571429) 47%); */
-    background: linear-gradient(180deg, rgba(165, 30, 30, 0) 0%, #A3252A 100%);
-
+    background: linear-gradient(180deg, rgba(165, 30, 30, 0) 40%, #A3252A 120%);
 }
 
 .gradiant-top {
     background: rgb(165, 30, 30);
-    background: linear-gradient(180deg, rgba(165, 30, 30, 0.7569152661064426) 0%, rgba(255, 255, 255, 0) 45%);
+    background: linear-gradient(180deg, rgba(165, 30, 30, 0.7569152661064426) 0%, rgba(255, 255, 255, 0) 40%);
 }
 
 @media (max-width:680px) {
