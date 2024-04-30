@@ -8,7 +8,7 @@ const OurCompany = () => {
           <h1 className=" text-white md:text-[64px] text-[24px] font-[800] md:leading-[78.02px] leading-[29.26px] text-center mx-auto">
             Our Company
           </h1>
-          <p className="mt-5 px-2 md:px-5 lg:px-8 xl:px-0 text-white md:text-[20px] text-xs md:leading-[24.78px] leading-[14.23px] text-center mx-auto">
+          <p className="mt-5 px-2 md:px-5 lg:px-8 xl:px-0 text-white md:text-[20px] text-xs md:leading-[24.78px] leading-[14.23px] text-justify mx-auto">
             Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
             nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat
             volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation
