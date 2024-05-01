@@ -1,13 +1,14 @@
-import React from 'react';
-import Facebook from '../images/svg/facebook.svg';
-import Instagram from '../images/svg/Instagram.svg';
-import Twitter from '../images/svg/Twitter.svg';
-import Youtube from '../images/svg/Youtube.svg';
-import Logo from '../images/tomina-logo.png';
-import FacebookSVG from './svgs/FaceBook';
-import InstagramSVG from './svgs/Instagram';
-import TwitterSVG from './svgs/Twitter';
-import YoutubeSVG from './svgs/Youtube';
+import React from "react";
+import Facebook from "../images/svg/facebook.svg";
+import Instagram from "../images/svg/Instagram.svg";
+import Twitter from "../images/svg/Twitter.svg";
+import Youtube from "../images/svg/Youtube.svg";
+import Logo from "../images/tomina-logo.png";
+import FacebookSVG from "./svgs/FaceBook";
+import InstagramSVG from "./svgs/Instagram";
+import TwitterSVG from "./svgs/Twitter";
+import YoutubeSVG from "./svgs/Youtube";
+import { Link } from "gatsby";
 
 const Footer = () => {
   return (
@@ -27,64 +28,64 @@ const Footer = () => {
               +201435678902355
             </p>
             <div className="pt-12 flex items-center gap-2.5">
-              <a href="/">
+              <Link to="/">
                 <img className="w-10 h-10" src={Facebook} alt="facebook" />
-              </a>
-              <a href="/">
+              </Link>
+              <Link to="/">
                 <img className="w-10 h-10" src={Youtube} alt="youtube" />
-              </a>
-              <a href="/">
+              </Link>
+              <Link to="/">
                 <img className="w-10 h-10" src={Instagram} alt="instagram" />
-              </a>
-              <a href="/">
+              </Link>
+              <Link to="/">
                 <img className="w-10 h-10" src={Twitter} alt="Twitter" />
-              </a>
+              </Link>
             </div>
           </div>
           <div className="sm:w-[20%] w-full">
             <ul className="space-y-2">
               <li className="text-lg font-normal leading-[24px] text-white">
-                <a href="/">Home</a>
+                <Link to="/">Home</Link>
               </li>
               <li className="text-lg font-normal leading-[24px] text-white">
-                {' '}
-                <a href="/">Home Branch</a>
+                {" "}
+                <Link to="/">Home Branch</Link>
               </li>
               <li className="text-lg font-normal leading-[24px] text-white">
-                {' '}
-                <a href="/">Meet Christopher Family</a>
+                {" "}
+                <Link to="/">Meet Christopher Family</Link>
               </li>
               <li className="text-lg font-normal leading-[24px] text-white">
-                <a href="/">Food Security</a>
+                <Link to="/">Food Security</Link>
               </li>
               <li className="text-lg font-normal leading-[24px] text-white">
-                <a href="/">Field to Fork</a>
+                <Link to="/">Field to Fork</Link>
               </li>
               <li className="text-lg font-normal leading-[24px] text-white">
-                <a href="/">Corporate Social Responsibility</a>
+                <Link to="/">Corporate Social Responsibility</Link>
               </li>
             </ul>
           </div>
           <div className="sm:w-[20%] w-full">
             <ul className="space-y-2">
               <li className="text-lg font-normal leading-[24px] text-white">
-                <a href="/">CR in the News</a>
+                <Link to="/">CR in the News</Link>
               </li>
               <li className="text-lg font-normal leading-[24px] text-white">
-                <a href="/">FAQ</a>
+                <Link to="/">FAQ</Link>
               </li>
               <li className="text-lg font-normal leading-[24px] text-white">
-                <a href="/">CA Heirloom Garlic</a>
+                <Link to="/">CA Heirloom Garlic</Link>
               </li>
               <li className="text-lg font-normal leading-[24px] text-white">
-                <a href="/">Products</a>
+                <Link to="/">Products</Link>
               </li>
               <li className="text-lg font-normal leading-[24px] text-white">
-                {' '}
-                <a href="/">Conventional Garlic</a>
+                {" "}
+                <Link to="/">Conventional Garlic</Link>
               </li>
               <li className="text-lg font-normal leading-[24px] text-white">
-                <a href="/">Tradtional Garlic</a>
+                <Link to="/">Tradtional Garlic</Link>
               </li>
             </ul>
           </div>

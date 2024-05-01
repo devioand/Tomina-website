@@ -1,17 +1,11 @@
-import * as React from 'react';
-import Navigation from '../nav/Navigation';
-import TickBar from './TickBar';
+import * as React from "react";
+import Navigation from "../nav/Navigation";
+import TickBar from "./TickBar";
 
 function Header() {
   return (
     <div className="relative bg-center bg-cover bg-norepeat h-[100vh] bg-[url('../images/oldclassicpainting.jpg')]">
       <div className="flex justify-center items-center h-[100vh] bg-h-gradiant">
-        {/* <div className="w-[100vw] h-[2rem] flex p-[1.5rem] justify-end">
-          <div className="w-[3rem] h-[3rem] rounded-full bg-red-900 ml-[.1rem]"></div>
-          <div className="w-[3rem] h-[3rem] rounded-full bg-red-900 ml-[.1rem]"></div>
-          <div className="w-[3rem] h-[3rem] rounded-full bg-red-900 ml-[.1rem]"></div>
-          <div className="w-[3rem] h-[3rem] rounded-full bg-red-900 ml-[.1rem]"></div>
-        </div> */}
         <div className="block absolute left-0 right-0 top-5 md:top-12">
           <Navigation />
         </div>
