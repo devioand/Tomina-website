@@ -1,16 +1,16 @@
-import type { HeadFC, PageProps } from 'gatsby';
-import * as React from 'react';
-import Description from '../components/Garlic/Description';
-import Ratio from '../components/Garlic/Ratio';
-import Video from '../components/Garlic/VideoSection';
-import Hero from '../components/Recipes/Hero';
-import Footer from '../components/Footer';
+import type { HeadFC, PageProps } from "gatsby";
+import * as React from "react";
+import Description from "../components/garlic/Description";
+import Ratio from "../components/garlic/Ratio";
+import Video from "../components/garlic/VideoSection";
+import Hero from "../components/recipes/Hero";
+import Footer from "../components/Footer";
 
 const GarlicPage: React.FC<PageProps> = () => {
   return (
     <main>
       <Hero
-        title={'40 Clove Garlic Chicken'}
+        title={"40 Clove Garlic Chicken"}
         discription={
           "There's no such thing as 'too much garlic' withour 40 Clove Garlic Chicken."
         }

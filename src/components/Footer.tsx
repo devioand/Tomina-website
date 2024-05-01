@@ -1,10 +1,10 @@
 import React from "react";
 import Facebook from "../images/svg/facebook.svg";
-import Instagram from "../images/svg/Instagram.svg";
-import Twitter from "../images/svg/Twitter.svg";
-import Youtube from "../images/svg/Youtube.svg";
+import Instagram from "../images/svg/instagram.svg";
+import Twitter from "../images/svg/twitter.svg";
+import Youtube from "../images/svg/youtube.svg";
 import Logo from "../images/tomina-logo.png";
-import FacebookSVG from "./svgs/FaceBook";
+import FacebookSVG from "./svgs/faceBook.svg";
 import InstagramSVG from "./svgs/Instagram";
 import TwitterSVG from "./svgs/Twitter";
 import YoutubeSVG from "./svgs/Youtube";
@@ -19,7 +19,7 @@ const Footer = () => {
           src={Logo}
           alt="logo"
         />
-        <div className="hidden md:flex sm:pt-[40px] pt-5 flex justify-between w-full gap-5 md:flex-nowrap flex-wrap">
+        <div className="hidden md:flex sm:pt-[40px] pt-5 justify-between w-full gap-5 md:flex-nowrap flex-wrap">
           <div className="sm:w-[40%] w-full">
             <p className="text-lg font-normal leading-[24px] text-white">
               Sadat Industrial City, District 7. land 7170, Egypt
