@@ -3,19 +3,9 @@ import { useState } from "react";
 import Logo from "../../images/Logo.png";
 import { HiOutlineBars3 } from "react-icons/hi2";
 import { RxCross1 } from "react-icons/rx";
-import { useState } from "react";
-import * as React from "react";
-import Logo from "../../images/Logo.png";
-import { HiOutlineBars3 } from "react-icons/hi2";
-import { RxCross1 } from "react-icons/rx";
+import { Link } from "gatsby";
 
-function Header() {
-  const [bar, setbar] = useState(true);
-  const [show, setshow] = useState(false);
-  const checkbars = () => {
-    setshow(show ? false : true);
-    setbar(bar ? false : true);
-  };
+function Navigation() {
   const [bar, setbar] = useState(true);
   const [show, setshow] = useState(false);
   const checkbars = () => {
@@ -30,13 +20,15 @@ function Header() {
           show ? "bg-[#B8AA84]" : "bg-transparent"
         } p-5 flex justify-between items-center md:hidden`}
       >
-        <img
-          src={Logo}
-          alt="Logo_of_Tomina"
-          className={`relative top-[0rem] max-w-[8rem] md:w-[11.673rem] z-10 object-contain object-center ${
-            bar ? "block" : "hidden"
-          }`}
-        />
+        <Link to="/">
+          <img
+            src={Logo}
+            alt="Logo_of_Tomina"
+            className={`relative top-[0rem] max-w-[8rem] md:w-[11.673rem] z-10 object-contain object-center ${
+              bar ? "block" : "hidden"
+            }`}
+          />
+        </Link>
         <div>
           {bar ? (
             <div onClick={checkbars}>
@@ -57,8 +49,12 @@ function Header() {
         <div className="flex justify-center items-center flex-col py-28 md:py-0 md:flex-row">
           <div className="md:bg-[#B8AA84]  md:py-[.3rem] px-[3rem] md:rounded-full md:relative md:left-[2rem]">
             <ul className="flex flex-col md:flex-row">
-              <li className="py-5 md:py-1 text-xl">Home</li>
-              <li className="py-5 md:py-1 text-xl md:pl-4">AboutUs</li>
+              <Link to="/">
+                <li className="py-5 md:py-1 text-xl">Home</li>
+              </Link>
+              <Link to="/about">
+                <li className="py-5 md:py-1 text-xl md:pl-4">AboutUs</li>
+              </Link>
             </ul>
           </div>
           <div className="">
@@ -71,7 +67,9 @@ function Header() {
           <div className="md:bg-[#B8AA84] py-[.3rem] px-[3rem] md:rounded-full md:relative md:left-[-2rem]">
             <ul className="flex justify-center  flex-col md:flex-row ">
               <li className="py-5 md:py-1 text-xl ">Products</li>
-              <li className="py-5 md:py-1 text-xl md:pl-4">Recipes</li>
+              <Link to="/recipes">
+                <li className="py-5 md:py-1 text-xl md:pl-4">Recipes</li>
+              </Link>
             </ul>
           </div>
         </div>
@@ -80,4 +78,4 @@ function Header() {
   );
 }
 
-export default Header;
+export default Navigation;
