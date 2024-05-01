@@ -1,9 +1,9 @@
 import React from "react";
 import user from "../../images/user.png";
-import FacebookSVG from "../svgs/faceBook.svg";
-import InstagramSVG from "../svgs/instagram.svg";
-import TwitterSVG from "../svgs/twitter.svg";
-import YoutubeSVG from "../svgs/youtube.svg";
+import FacebookSVG from "../svgs/Facebook";
+import InstagramSVG from "../svgs/Instagram";
+import TwitterSVG from "../svgs/Twitter";
+import YoutubeSVG from "../svgs/Twitter";
 
 const TeamCard = () => {
   return (

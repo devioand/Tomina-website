@@ -1,10 +1,6 @@
 import React from "react";
-import Facebook from "../images/svg/facebook.svg";
-import Instagram from "../images/svg/instagram.svg";
-import Twitter from "../images/svg/twitter.svg";
-import Youtube from "../images/svg/youtube.svg";
 import Logo from "../images/tomina-logo.png";
-import FacebookSVG from "./svgs/faceBook.svg";
+import FacebookSVG from "./svgs/Facebook";
 import InstagramSVG from "./svgs/Instagram";
 import TwitterSVG from "./svgs/Twitter";
 import YoutubeSVG from "./svgs/Youtube";
@@ -28,18 +24,10 @@ const Footer = () => {
               +201435678902355
             </p>
             <div className="pt-12 flex items-center gap-2.5">
-              <Link to="/">
-                <img className="w-10 h-10" src={Facebook} alt="facebook" />
-              </Link>
-              <Link to="/">
-                <img className="w-10 h-10" src={Youtube} alt="youtube" />
-              </Link>
-              <Link to="/">
-                <img className="w-10 h-10" src={Instagram} alt="instagram" />
-              </Link>
-              <Link to="/">
-                <img className="w-10 h-10" src={Twitter} alt="Twitter" />
-              </Link>
+              <FacebookSVG color="#FFFFFF" />
+              <YoutubeSVG color="#FFFFFF" />
+              <InstagramSVG color="#FFFFFF" />
+              <TwitterSVG color="#FFFFFF" />
             </div>
           </div>
           <div className="sm:w-[20%] w-full">
