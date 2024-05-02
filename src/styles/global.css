@@ -15,6 +15,16 @@ body {
     background-image: url('../images/recipes/fresh.jpg');
 }
 
+.bgImg {
+    background-image: url('../images/Garlicpowder.png');
+    background-position: left bottom;
+}
+
+.bgMission {
+    background-image: url("../images/product.png");
+    background-position: left bottom;
+}
+
 .container {
     position: relative;
     box-shadow: 1px 1px 10px rgb(1, 2, 3);
@@ -317,6 +327,18 @@ body {
 
     .swiper-button-prev {
         margin-left: -15px;
+    }
+
+    .bgImg {
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        height: 100vh;
+    }
+
+    .bgMission {
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        height: 80vh;
     }
 
     .swiper-button-next {
