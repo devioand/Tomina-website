@@ -12,7 +12,7 @@ const OurTeam = () => {
 
     600: {
       slidesPerView: 3,
-      spaceBetween: 10,
+      spaceBetween: 30,
     },
 
     940: {

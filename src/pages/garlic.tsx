@@ -18,7 +18,7 @@ const GarlicPage: React.FC<PageProps> = () => {
       <Video />
       <Ratio />
       <Description />
-      <Footer />
+      <Footer curveColor="#B8AA84" />
     </main>
   );
 };

@@ -42,7 +42,7 @@ const data = [
 ];
 function Reciepies() {
   return (
-    <section className='bg-[#004F2D]'>
+    <section className='bg-[#004F2D] py-4 md:py-8'>
       <div className="max-w-[1536px] mx-auto px-2 md:px-4 lg:px-8 py-12">
         <ReciepiesCaurasel data={data} />
       </div>
