@@ -7,6 +7,39 @@
   color: #a51e1e;
 }
 
+body {
+  transition: .5s;
+}
+
+.background {
+    background-image: url('../images/recipes/fresh.jpg');
+}
+
+.container {
+    position: relative;
+    box-shadow: 1px 1px 10px rgb(1, 2, 3);
+}
+
+.bgImage {
+    background-image: url("../images/freshraw.png");
+}
+
+.container::after {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    content: '';
+    background-color: white;
+    border-top: 0px solid #A51E1E;
+    border-left: 0px solid #A51E1E;
+    border-right: 0px solid black;
+    border-bottom: 0px solid black;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%) rotate(45deg);
+    border-bottom-left-radius: 10rem;
+}
+
 .videoM {
   width: 500px;
   height: 300px;
@@ -88,6 +121,10 @@
 .bg-h-gradiant {
   /* background: linear-gradient(180deg, rgba(165, 30, 30, 0.7849264705882353) 0%, rgba(184, 170, 132, 0.9866071428571429) 47%); */
   background: linear-gradient(180deg, rgba(165, 30, 30, 0) 0%, #a3252a 100%);
+}
+
+.backgradiand {
+    background: linear-gradient(0deg, rgba(165, 30, 30, 0) 0%, #A51E1E 225.1%);
 }
 
 .gradiant-top {
@@ -190,4 +227,62 @@
     height: 150px;
     box-shadow: 1px 1px 20px black;
   }
+}
+
+@media (max-width:767px) {
+
+    .swiper-button-prev {
+        margin-left: -15px;
+    }
+
+    .swiper-button-next {
+        margin-right: -15px;
+    }
+
+    .swiper-button-prev::after,
+    .swiper-button-next::after {
+        color: #A51E1E;
+        font-weight: bolder;
+        font-size: 25px !important;
+    }
+
+    .arrowstyle .swiper-button-prev::after,
+    .arrowstyle .swiper-button-next::after {
+        color: #B8AA84 !important;
+        font-size: 25px !important;
+        font-weight: 900 !important;
+    }
+
+    .videoM {
+        width: 300px;
+        height: 200px;
+        box-shadow: 1px 1px 20px black;
+    }
+
+    .swiper-slide {
+        &.swiper-slide-active .heading {
+            font-size: 2rem;
+            padding-top: 1rem;
+            padding-bottom: .5rem;
+            font-weight: bold;
+        }
+
+        &.swiper-slide-active .para {
+            font-size: 1.5rem;
+            padding-top: .5rem;
+            padding-bottom: .5rem;
+        }
+
+        &.swiper-slide-active .images {
+            height: 300px;
+            top: 0;
+        }
+
+        &.swiper-slide-active .box {
+            margin-top: 0rem;
+            padding-top: 9rem;
+            padding-left: 5rem;
+            padding-right: 5rem;
+        }
+    }
 }
