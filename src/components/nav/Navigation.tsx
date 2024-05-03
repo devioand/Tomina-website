@@ -36,7 +36,7 @@ function Navigation() {
             </div>
           ) : (
             <div onClick={checkbars}>
-              <RxCross1 className="icons absolute right-3" />
+              <RxCross1 className="icons absolute right-5 top-5" />
             </div>
           )}
         </div>
@@ -48,12 +48,12 @@ function Navigation() {
       >
         <div className="flex justify-center items-center flex-col py-28 lg:py-0 lg:flex-row">
           <div className="lg:bg-[#B8AA84] lg:py-[.3rem] px-[3rem] lg:rounded-full lg:relative lg:left-[2rem]">
-            <ul className="flex flex-col lg:flex-row gap-6">
+            <ul className="flex flex-col lg:flex-row gap-5">
               <Link to="/">
-                <li className="py-5 lg:py-1 text-xl">Home</li>
+                <li className="lg:py-1 text-xl">Home</li>
               </Link>
               <Link to="/about">
-                <li className="py-5 lg:py-1 text-xl">About Us</li>
+                <li className="pb-5 lg:py-1 text-xl">About Us</li>
               </Link>
             </ul>
           </div>
@@ -65,12 +65,12 @@ function Navigation() {
             />
           </div>
           <div className="lg:bg-[#B8AA84] py-[.3rem] px-[3rem] lg:rounded-full lg:relative lg:left-[-2rem]">
-            <ul className="flex justify-center flex-col lg:flex-row gap-6">
+            <ul className="flex justify-center flex-col lg:flex-row gap-5">
               <Link to="/products">
-                <li className="py-5 lg:py-1 text-xl ">Products</li>
+                <li className="lg:py-1 text-xl ">Products</li>
               </Link>
               <Link to="/recipes">
-                <li className="py-5 lg:py-1 text-xl">Recipes</li>
+                <li className="lg:py-1 text-xl">Recipes</li>
               </Link>
             </ul>
           </div>

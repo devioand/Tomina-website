@@ -1,5 +1,5 @@
 import React from 'react';
-import img from '../../images/Rectangle3.png';
+import img from '../../images/imgs/home/garlic.webp';
 import ReciepiesCaurasel from './ReciepiesCaurasel';
 
 const data = [

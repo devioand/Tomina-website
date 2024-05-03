@@ -1,6 +1,7 @@
 import { default as React } from 'react';
-import Fda from '../../images/fda.png';
-import Iso from '../../images/iso.png';
+import Fda from '../../images/imgs/about/fda.webp';
+import outlinedIso from '../../images/imgs/about/outlined-iso.webp';
+import solidIso from '../../images/imgs/about/solid-iso.webp';
 
 const Certificates = () => {
   return (
@@ -21,7 +22,7 @@ const Certificates = () => {
           <div className="pt-4 md:pt-24 mt:pb-20 flex justify-center items-center md:gap-8 gap-4">
             <img
               className="lg:w-[300px] md:w-[180px] w-[68px] lg:h-[300px] md:h-[180px] h-[68px]"
-              src={Iso}
+              src={outlinedIso}
               alt="iso"
             />
             <img
@@ -31,7 +32,7 @@ const Certificates = () => {
             />
             <img
               className="lg:w-[300px] md:w-[180px] w-[68px] lg:h-[300px] md:h-[180px] h-[68px]"
-              src={Iso}
+              src={solidIso}
               alt="iso2"
             />
           </div>

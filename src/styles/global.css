@@ -196,6 +196,19 @@ body {
   height: 180px;
 }
 
+@font-face {
+  font-family: 'CustomFont';
+  src: url('../fonts/Alessandria.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.custom-heading {
+  /* position: absolute; */
+  font-family: 'CustomFont', sans-serif;
+  color: #B8AA84;
+}
+
 @media (max-width: 767px) {
   .swiper-button-prev {
     margin-left: -15px !important;
