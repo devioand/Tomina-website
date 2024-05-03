@@ -6,12 +6,12 @@ import ReciepeCard from './ReciepieCard';
 function RecipiesCaurasel({ data }: any) {
   const breakpoints = {
     425: {
-      slidesPerView: 1.5,
-      spaceBetween: 1,
+      slidesPerView: 1.7,
+      spaceBetween: 10,
     },
     
     500: {
-      slidesPerView: 1.7,
+      slidesPerView: 1.8,
       spaceBetween: 1,
     },
 
@@ -25,19 +25,9 @@ function RecipiesCaurasel({ data }: any) {
       spaceBetween: 30,
     },
 
-    940: {
+    900: {
       slidesPerView: 3,
       spaceBetween: 30,
-    },
-
-    1100: {
-      slidesPerView: 3,
-      spaceBetween: 120,
-    },
-
-    1280: {
-      slidesPerView: 3,
-      spaceBetween: 180,
     },
   };
 

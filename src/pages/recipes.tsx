@@ -16,7 +16,7 @@ const RecipesPage: React.FC<PageProps> = () => {
       <Product />
       <Recipes />
       <RecipesTip />
-      <Footer />
+      <Footer curveColor="#004F2D" />
     </main>
   );
 };

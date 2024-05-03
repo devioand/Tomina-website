@@ -17,7 +17,7 @@ const AboutPage: React.FC<PageProps> = () => {
       <OurCompany />
       <OurTeam />
       <Certificates />
-      <Footer />
+      <Footer curveColor="#A51E1E" />
     </main>
   );
 };

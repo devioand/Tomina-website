@@ -1,9 +1,9 @@
 import React from 'react';
-import img from '../../images/1.png';
+import img from '../../images/imgs/home/rounded-onions.webp';
 
 function Field() {
   return (
-    <div className='bg-[url("../images/Garlic.png")] h-[80vh] md:h-[100vh] bg-center bg-cover '>
+    <div className='bg-[url("../images/imgs/home/fresh-garlic.webp")] h-[80vh] md:h-[100vh] bg-center bg-cover '>
       <div className="flex flex-col items-center justify-center w-full h-[80vh] md:h-[100vh] gradiant-top px-2 md:px-4 lg:px-8 py-12">
         <div className="w-full flex flex-col justify-center items-center">
           <h2 className="text-4xl md:text-6xl font-bold text-white text-center">

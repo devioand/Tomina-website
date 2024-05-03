@@ -3,13 +3,13 @@ import React from 'react';
 const TickBar = () => {
   return (
     <svg
-    className='absolute bottom-24 md:bottom-8'
+    className='absolute bottom-24 md:-bottom-8'
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
       xmlnsXlink="http://www.w3.org/1999/xlink"
       viewBox="0 0 1366 300"
     >
-      <rect width="1366" height="300" fill="url(#pattern0_157_38408)" />
+      <rect width="1366" height="250" fill="url(#pattern0_157_38408)" />
       <defs>
         <pattern
           id="pattern0_157_38408"

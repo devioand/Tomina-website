@@ -15,7 +15,7 @@ const IndexPage: React.FC<PageProps> = () => {
       <OurProduct />
       <FeatureredReciepes />
       <Reciepies />
-      <Footer />
+      <Footer curveColor="#004F2D" />
     </div>
   );
 };

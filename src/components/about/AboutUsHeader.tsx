@@ -1,12 +1,12 @@
-import React from "react";
-import Navigation from "../nav/Navigation";
+import React from 'react';
+import Navigation from '../nav/Navigation';
 
 const AboutUsHeader = () => {
   return (
     <section>
-      <div className='bg-[url("../images/about.png")] bg-no-repeat object-cover bg-cover bg-center'>
+      <div className='bg-[url("../images/imgs/about/soil-garlic.webp")] bg-no-repeat object-cover bg-cover bg-center'>
         <div className="relative flex flex-col about-header w-full h-lvh">
-          <div className="block absolute left-0 right-0 top-5 md:top-12">
+          <div className="block absolute left-0 right-0 top-12 lg:top-20">
             <Navigation />
           </div>
           <div className="pb-16 mt-auto">

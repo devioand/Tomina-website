@@ -1,9 +1,9 @@
 import React from "react";
 import user from "../../images/user.png";
-import FacebookSVG from "../svgs/Facebook";
-import InstagramSVG from "../svgs/Instagram";
-import TwitterSVG from "../svgs/Twitter";
-import YoutubeSVG from "../svgs/Twitter";
+import FacebookSVG from "../svgs/solid/Facebook";
+import InstagramSVG from "../svgs/solid/Instagram";
+import TwitterSVG from "../svgs/solid/Twitter";
+import YoutubeSVG from "../svgs/solid/Twitter";
 
 const TeamCard = () => {
   return (
@@ -12,7 +12,7 @@ const TeamCard = () => {
         <img
           src={user}
           alt="User"
-          className="md:w-[300px] h-[261px] md:h-[457px] absolute top-1 md:-top-0 images"
+          className="md:w-[300px] h-[261px] md:h-[457px] absolute top-1 md:-top-0 object-contain object-center images"
         />
       </div>
       <div className="flex flex-col items-center justify-center pt-4 gap-y-2">
