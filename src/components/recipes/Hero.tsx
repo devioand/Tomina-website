@@ -1,11 +1,11 @@
-import React from "react";
-import Navigation from "../nav/Navigation";
+import React from 'react';
+import Navigation from '../nav/Navigation';
 
 function Hero({ title, discription }: any) {
   return (
     <div className="background w-full h-[100vh] bg-center bg-cover">
       <div className="flex w-full justify-center h-[100vh] bg-h-gradiant px-2 md:px-4 lg:px-8 py-12">
-        <div className="block absolute left-0 right-0 top-5 md:top-12">
+        <div className="block absolute left-0 right-0 top-12 lg:top-20">
           <Navigation />
         </div>
         <div className="mt-auto flex justify-center items-center flex-col">

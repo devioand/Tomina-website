@@ -1,21 +1,21 @@
-import * as React from "react";
-import type { HeadFC, PageProps } from "gatsby";
-import Hero from "../components/product/Hero";
-import Product from "../components/product/Products";
-import FeedSlider from "../components/product/FeedbackS";
-import Garlicpowder from "../components/product/Garlicpowder";
-import Mission from "../components/product/Mission";
+import type { HeadFC, PageProps } from 'gatsby';
+import * as React from 'react';
+import Footer from '../components/Footer';
+import Hero from '../components/product/Hero';
+import Product from '../components/product/Products';
+import CustomersTestimonials from '../components/product/CustomersTestimonials';
 
 const ProductPage: React.FC<PageProps> = () => {
-    return (
-        <main>
-            <Hero />
-            <Product />
-            <Garlicpowder />
-            <Mission />
-            <FeedSlider />
-        </main>
-    );
+  return (
+    <main>
+      <Hero />
+      <Product />
+      <div className="relative bg-size bg-[url('../images/Garlicpowder.png')] h-[100vh] md:-mt-[108px]"></div>
+      <div className="bg-size bg-[url('../images/product.png')]  h-[100vh] md:-mt-[105px]"></div>
+      <CustomersTestimonials />
+      <Footer curveColor="#282828" />
+    </main>
+  );
 };
 
 export default ProductPage;

@@ -1,33 +1,26 @@
-import React from 'react'
-import Main from "../recipes/Hero";
-import Product from './Products';
-import Header from '../nav/Navigation.tsx'
+import React from 'react';
+import Navigation from '../nav/Navigation';
 
 const Hero = () => {
-    return (
-        <div>
-            <div className='bgImage w-full h-[100vh] bg-center bg-cover '>
-                <div className='flex flex-col justify-between items-center w-full h-[100vh] bg-h-gradiant px-2 md:px-4 lg:px-8 py-12 '>
-                    <div className='w-full'>
-                        <div className="w-full h-[2rem] flex justify-end hidden md:flex">
-                            <div className="w-[3rem] h-[3rem] rounded-full bg-red-900 ml-[.1rem]"></div>
-                            <div className="w-[3rem] h-[3rem] rounded-full bg-red-900 ml-[.1rem]"></div>
-                            <div className="w-[3rem] h-[3rem] rounded-full bg-red-900 ml-[.1rem]"></div>
-                            <div className="w-[3rem] h-[3rem] rounded-full bg-red-900 ml-[.1rem]"></div>
-                        </div>
-                        <div className="absolute max-[767px]:top-0 left-0 right-0 px-[0rem] md:p-[2rem]  md:mt-[.1rem]">
-                            <Header />
-                        </div>
-                    </div>
-                    <div className='flex justify-center items-center flex-col'>
-                        <h2 className='text-4xl md:text-6xl text-white text-center font-bold'>Our Products</h2>
-                        <p className='text-sm text-white text-center w-[20rem] md:pt-3'>Proudly located in - Fatoum, Egypt
-                        </p>
-                    </div>
-                </div>
-            </div>
+  return (
+    <div className="bg-[url('../images/freshraw.png')] w-full h-[100vh] bg-center bg-cover">
+      <div className="flex flex-col justify-between items-center w-full h-[100vh] bg-h-gradiant px-2 md:px-4 lg:px-8 py-12 ">
+        <div className="w-full">
+          <div className="block absolute left-0 right-0 top-12 lg:top-20">
+            <Navigation />
+          </div>
         </div>
-    )
-}
+        <div className="flex justify-center items-center flex-col">
+          <h2 className="text-4xl md:text-6xl text-white text-center font-bold">
+            Our Products
+          </h2>
+          <p className="text-sm text-white text-center w-[20rem] md:pt-3">
+            Proudly located in - Fatoum, Egypt
+          </p>
+        </div>
+      </div>
+    </div>
+  );
+};
 
-export default Hero
+export default Hero;

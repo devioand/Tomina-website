@@ -6,7 +6,7 @@ function Header() {
   return (
     <div className="relative bg-center bg-cover bg-norepeat h-[100vh] bg-[url('../images/oldclassicpainting.jpg')]">
       <div className="flex justify-center items-center h-[100vh] bg-h-gradiant">
-        <div className="block absolute left-0 right-0 top-5 md:top-12">
+        <div className="block absolute left-0 right-0 top-12 lg:top-20">
           <Navigation />
         </div>
         <div className="max-w-[320px] sm:max-w-[400px] md:max-w-[600px] lg:max-w-[900px] px-4 md:px-12 lg:px-24">
