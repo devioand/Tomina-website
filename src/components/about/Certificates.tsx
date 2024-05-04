@@ -44,7 +44,7 @@ const Certificates = () => {
             <div className="outlined-box">
               <div className="iso-image-one">
                 <img
-                  className="lg:w-[300px] md:w-[180px] w-[68px] lg:h-[300px] md:h-[180px] h-[68px] fda-logo"
+                  className="lg:w-[300px] md:w-[180px] w-[68px] lg:h-[300px] md:h-[180px] h-[68px]"
                   src={Fda}
                   alt="fda"
                 />
@@ -52,7 +52,7 @@ const Certificates = () => {
 
               <div className="iso-image-one-hover">
                 <img
-                  className="lg:w-[300px] md:w-[180px] w-[68px] lg:h-[300px] md:h-[180px] h-[68px] fda-certificate"
+                  className="lg:w-[300px] md:w-[180px] w-[68px] lg:h-[300px] md:h-[180px] h-[68px]"
                   src={certificateThree}
                   alt="Fda Certificate"
                 />
@@ -62,7 +62,7 @@ const Certificates = () => {
             <div className="outlined-box">
               <div className="iso-image-one">
                 <img
-                  className="lg:w-[300px] md:w-[180px] w-[68px] lg:h-[300px] md:h-[180px] h-[68px] iso-logo-2"
+                  className="lg:w-[300px] md:w-[180px] w-[68px] lg:h-[260px] md:h-[180px] h-[68px]"
                   src={solidIso}
                   alt="iso2"
                 />
@@ -70,7 +70,7 @@ const Certificates = () => {
 
               <div className="iso-image-one-hover">
                 <img
-                  className="lg:w-[300px] md:w-[180px] w-[68px] lg:h-[300px] md:h-[180px] h-[68px] iso-certificate-2"
+                  className="lg:w-[300px] md:w-[180px] w-[68px] lg:h-[300px] md:h-[180px] h-[68px]"
                   src={certificateTwo}
                   alt="Iso Certificate"
                 />

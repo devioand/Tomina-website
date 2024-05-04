@@ -11,11 +11,6 @@ body {
   transition: .5s;
 }
 
-.bgImg {
-    background-image: url('../images/Garlicpowder.png');
-    background-position: left bottom;
-}
-
 .container {
     position: relative;
     box-shadow: 1px 1px 10px rgb(1, 2, 3);
@@ -265,12 +260,6 @@ body {
     width: 300px;
     height: 200px;
     box-shadow: 1px 1px 20px black;
-  }
-
-  .bgImg {
-    background-size: 100% 100%;
-    background-repeat: no-repeat;
-    height: 100vh;
   }
 
   .custom-shape-divider-top-1714675502 svg {
