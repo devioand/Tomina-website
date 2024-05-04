@@ -2,7 +2,7 @@ import React from 'react';
 
 const OurCompany = () => {
   return (
-    <section className="bg-[url('../images/fields.png')] bg-no-repeat bg-cover bg-center">
+    <section className="bg-[url('../images/imgs/about/garlic-soil.webp')] bg-no-repeat bg-cover bg-center">
       <div className="company-gradient relative justify-center items-center flex flex-col w-full md:h-[679.11px] h-[378px]">
         <div className="max-w-[1069px] w-full mx-auto px-2 md:px-5 lg:px-0">
           <h1 className=" text-white md:text-[64px] text-[24px] font-[800] md:leading-[78.02px] leading-[29.26px] text-center mx-auto">

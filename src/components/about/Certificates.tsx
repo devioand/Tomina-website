@@ -2,6 +2,9 @@ import { default as React } from 'react';
 import Fda from '../../images/imgs/about/fda.webp';
 import outlinedIso from '../../images/imgs/about/outlined-iso.webp';
 import solidIso from '../../images/imgs/about/solid-iso.webp';
+import certificateOne from '../../images/imgs/about/UAF130297023_TOMINA_FOOD_INDUSTRIES_9001.webp';
+import certificateTwo from '../../images/imgs/about/UAF1302227024_TOMINA_FOOD_INDUSTRIES_22000.webp';
+import certificateThree from '../../images/imgs/about/TOMINA_FOOD_INDUSTRIES_FDA_Certificate_2024.webp';
 
 const Certificates = () => {
   return (
@@ -20,21 +23,59 @@ const Certificates = () => {
             eget est lorem ipsum dolor. Sagittis scelerisque purus semper.
           </p>
           <div className="pt-4 md:pt-24 mt:pb-20 flex justify-center items-center md:gap-8 gap-4">
-            <img
-              className="lg:w-[300px] md:w-[180px] w-[68px] lg:h-[300px] md:h-[180px] h-[68px]"
-              src={outlinedIso}
-              alt="iso"
-            />
-            <img
-              className="lg:w-[300px] md:w-[180px] w-[68px] lg:h-[300px] md:h-[180px] h-[68px]"
-              src={Fda}
-              alt="fda"
-            />
-            <img
-              className="lg:w-[300px] md:w-[180px] w-[68px] lg:h-[300px] md:h-[180px] h-[68px]"
-              src={solidIso}
-              alt="iso2"
-            />
+            <div className="outlined-box">
+              <div className="iso-image-one">
+                <img
+                  className="lg:w-[300px] md:w-[180px] w-[68px] lg:h-[300px] md:h-[180px] h-[68px]"
+                  src={outlinedIso}
+                  alt="iso"
+                />
+              </div>
+
+              <div className="iso-image-one-hover">
+                <img
+                  className="lg:w-[300px] md:w-[180px] w-[68px] lg:h-[300px] md:h-[180px] h-[68px]"
+                  src={certificateOne}
+                  alt="Iso Certificate"
+                />
+              </div>
+            </div>
+
+            <div className="outlined-box">
+              <div className="iso-image-one">
+                <img
+                  className="lg:w-[300px] md:w-[180px] w-[68px] lg:h-[300px] md:h-[180px] h-[68px] fda-logo"
+                  src={Fda}
+                  alt="fda"
+                />
+              </div>
+
+              <div className="iso-image-one-hover">
+                <img
+                  className="lg:w-[300px] md:w-[180px] w-[68px] lg:h-[300px] md:h-[180px] h-[68px] fda-certificate"
+                  src={certificateThree}
+                  alt="Fda Certificate"
+                />
+              </div>
+            </div>
+
+            <div className="outlined-box">
+              <div className="iso-image-one">
+                <img
+                  className="lg:w-[300px] md:w-[180px] w-[68px] lg:h-[300px] md:h-[180px] h-[68px] iso-logo-2"
+                  src={solidIso}
+                  alt="iso2"
+                />
+              </div>
+
+              <div className="iso-image-one-hover">
+                <img
+                  className="lg:w-[300px] md:w-[180px] w-[68px] lg:h-[300px] md:h-[180px] h-[68px] iso-certificate-2"
+                  src={certificateTwo}
+                  alt="Iso Certificate"
+                />
+              </div>
+            </div>
           </div>
         </div>
       </div>

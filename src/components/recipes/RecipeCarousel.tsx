@@ -1,8 +1,8 @@
 import React from 'react';
 import { SwiperSlide } from 'swiper/react';
-import img1 from '../../images/Recipes/Rectangle.png';
-import img from '../../images/Recipes/Rectangle1.png';
-import img2 from '../../images/Recipes/Rectangle2.png';
+import img1 from '../../images/imgs/recipes/garlic-dish.webp';
+import img from '../../images/imgs/recipes/garlic-plate.webp';
+import img2 from '../../images/imgs/recipes/garlic-fish.webp';
 import Carousel from '../ui/carousel/Carousel';
 import Card from './RecipeCard';
 

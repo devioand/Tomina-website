@@ -1,5 +1,5 @@
 import React from 'react';
-import img from '../../images/Recipes/Layer.png';
+import img from '../../images/imgs/recipes/onion-logo.webp';
 import RecipeVideo from './RecipeVideo';
 
 const RecipesTip = () => {

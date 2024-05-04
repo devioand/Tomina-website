@@ -11,10 +11,6 @@ body {
   transition: .5s;
 }
 
-.background {
-    background-image: url('../images/recipes/fresh.jpg');
-}
-
 .bgImg {
     background-image: url('../images/Garlicpowder.png');
     background-position: left bottom;
@@ -54,13 +50,6 @@ body {
 
 .backgroundColor {
   background-color: rgba(0, 0, 0, 0.7);
-}
-
-.background {
-  background-image: url("../images/recipes/fresh.jpg");
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
 }
 
 .videoM {
@@ -204,9 +193,26 @@ body {
 }
 
 .custom-heading {
-  /* position: absolute; */
   font-family: 'CustomFont', sans-serif;
   color: #B8AA84;
+}
+
+.outlined-box {
+  position: relative;
+}
+
+.outlined-box .iso-image-one-hover {
+  /* visibility:hidden; */
+  position: absolute;
+  left: 0;
+  top: 0;
+  opacity: 0;
+  transition: opacity 0.5s linear;
+}
+.outlined-box:hover .iso-image-one-hover {        
+  display: block;
+  /* visibility: visible; */
+  opacity: 1;
 }
 
 @media (max-width: 767px) {

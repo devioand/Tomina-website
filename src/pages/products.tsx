@@ -10,8 +10,8 @@ const ProductPage: React.FC<PageProps> = () => {
     <main>
       <Hero />
       <Product />
-      <div className="relative bg-size bg-[url('../images/Garlicpowder.png')] h-[100vh] md:-mt-[108px]"></div>
-      <div className="bg-size bg-[url('../images/product.png')]  h-[100vh] md:-mt-[105px]"></div>
+      <div className="relative bg-size bg-[url('../images/imgs/products/garlicPowder.webp')] h-[100vh] md:-mt-[108px]"></div>
+      <div className="bg-size bg-[url('../images/imgs/products/our-mission.webp')]  h-[100vh] md:-mt-[105px]"></div>
       <CustomersTestimonials />
       <Footer curveColor="#282828" />
     </main>
