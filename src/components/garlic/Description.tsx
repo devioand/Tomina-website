@@ -1,9 +1,8 @@
 import React from 'react';
-// import img from ''
 
 const Description = () => {
   return (
-    <section className='flex py-12 bg-[url("../images/fresh-raw.png")] bg-center bg-contain bg-norepeat px-5 md:px-32'>
+    <section className='flex py-12 bg-[url("../images/imgs/recipes/fried-fish.webp")] bg-center bg-contain bg-norepeat px-5 md:px-32'>
         <div className="md:backgroundColor grid lg:grid-cols-2 p-2 gap-y-4">
           <div className="p-8 backgroundColor">
             <h2 className="text-3xl font-bold text-white pb-2">Directions</h2>

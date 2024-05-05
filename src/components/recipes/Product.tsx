@@ -1,5 +1,5 @@
 import React from 'react';
-import img from '../../images/Recipes/FrameR.png';
+import img from '../../images/imgs/recipes/bar-garlic.webp';
 
 const Product = () => {
   return (

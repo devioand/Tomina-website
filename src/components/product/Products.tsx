@@ -1,5 +1,5 @@
 import React from 'react';
-import img1 from '../../images/ketchup.png';
+import img1 from '../../images/imgs/products/peeled-garlic.webp';
 import img from '../../images/nuts.png';
 import Slider from './Slider';
 
