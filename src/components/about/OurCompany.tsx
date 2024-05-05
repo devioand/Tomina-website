@@ -1,4 +1,5 @@
 import React from 'react';
+import ourCompanyPdf from '../../images/imgs/about/tomina_company_profile.pdf';
 
 const OurCompany = () => {
   return (
@@ -20,9 +21,14 @@ const OurCompany = () => {
             nulla facilisi.
           </p>
           <div className="flex justify-center mt-5">
-            <button className="hover:bg-[#7e2121] border border-white bg-transparent md:py-3 py-2 md:rounded-full rounded-[24px] md:px-[90px] px-[34px] text-white md:text-[18px] text-xs md:leading-[24px] leading-[14.23px] text-center mx-auto">
+            <a
+              href={ourCompanyPdf}
+              target="_blank"
+              rel="noreferrer"
+              className="hover:bg-[#7e2121] border border-white bg-transparent md:py-3 py-2 md:rounded-full rounded-[24px] md:px-[90px] px-[34px] text-white md:text-[18px] text-xs md:leading-[24px] leading-[14.23px] text-center mx-auto"
+            >
               See More
-            </button>
+            </a>
           </div>
         </div>
       </div>
