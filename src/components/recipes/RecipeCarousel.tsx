@@ -1,12 +1,31 @@
 import React from 'react';
 import { SwiperSlide } from 'swiper/react';
-import img1 from '../../images/imgs/recipes/garlic-dish.webp';
-import img from '../../images/imgs/recipes/garlic-plate.webp';
-import img2 from '../../images/imgs/recipes/garlic-fish.webp';
+import onionPasta from '../../images/imgs/recipes/easy-onion-slider.webp';
+import lemonGarlic from '../../images/imgs/recipes/lemon-garlic-slider.webp';
+import bakedSalmon from '../../images/imgs/recipes/baked-salmon-slider.webp';
 import Carousel from '../ui/carousel/Carousel';
 import Card from './RecipeCard';
 
-const data = [img, img1, img2, img, img1, img2];
+const data = [
+  {
+    img: onionPasta,
+  },
+  {
+    img: lemonGarlic,
+  },
+  {
+    img: bakedSalmon,
+  },
+  {
+    img: onionPasta,
+  },
+  {
+    img: lemonGarlic,
+  },
+  {
+    img: bakedSalmon,
+  }
+]
 
 const RecipeCarousel = () => {
   const breakpoints = {
@@ -27,7 +46,7 @@ const RecipeCarousel = () => {
     <Carousel centeredSlides={true} breakpoints={breakpoints}>
       {data?.map((d: any, _idx: number) => (
         <SwiperSlide key={`reciepe--key-${_idx}`}>
-          <Card item={d} />
+          <Card item={d.img} />
         </SwiperSlide>
       ))}
     </Carousel>
