@@ -2,10 +2,12 @@ import React from 'react';
 import About1 from '../../images/about1.png';
 import Organic from '../../images/organic.png';
 import Trusted from '../../images/trusted.png';
+import AnimateY from '../animation/AnimateY';
 
 const OurQuality = () => {
   return (
     <section className="gradient-bg">
+      <AnimateY>
       <div className="max-w-[1536px] mx-auto flex lg:flex-row flex-col-reverse px-12 xl:px-28 pt-12 pb-4">
         <div className="lg:min-w-[50%] w-full">
           <p className="text-white text-[12px] md:text-[20px] font-normal text-justify lg:text-left">
@@ -39,6 +41,7 @@ const OurQuality = () => {
           />
         </div>
       </div>
+      </AnimateY>
     </section>
   );
 };
