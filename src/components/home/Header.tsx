@@ -1,7 +1,6 @@
 import * as React from 'react';
-import Navigation from '../nav/Navigation';
-import TickBar from './TickBar';
 import AnimateY from '../animation/AnimateY';
+import Navigation from '../nav/Navigation';
 
 function Header() {
   return (
@@ -23,7 +22,6 @@ function Header() {
           </div>
         </AnimateY>
       </div>
-      <TickBar />
     </div>
   );
 }

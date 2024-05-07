@@ -1,5 +1,5 @@
 import React from 'react';
-import About1 from '../../images/about1.png';
+import onionImage from '../../images/imgs/about/onion.webp';
 import Organic from '../../images/organic.png';
 import Trusted from '../../images/trusted.png';
 import AnimateY from '../animation/AnimateY';
@@ -36,8 +36,8 @@ const OurQuality = () => {
         </div>
         <div className="lg:min-w-[50%] w-full z-10 mb-8 lg:mb-0 flex justify-center lg:justify-end items-center">
           <img
-            src={About1}
-            className="-mt-[80px] md:-mt-[100px] lg:-mb-[50px] object-contain object-center"
+            src={onionImage}
+            className="-mt-[80px] md:-mt-[100px] lg:-mb-[150px] object-contain object-center"
           />
         </div>
       </div>

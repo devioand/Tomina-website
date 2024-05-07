@@ -24,4 +24,4 @@ const AboutPage: React.FC<PageProps> = () => {
 
 export default AboutPage;
 
-export const Head: HeadFC = () => <title>About Us</title>;
+export const Head: HeadFC = () => <title>About us</title>;

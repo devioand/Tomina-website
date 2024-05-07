@@ -6,7 +6,7 @@ import Video from "../components/garlic/VideoSection";
 import Hero from "../components/recipes/Hero";
 import Footer from "../components/Footer";
 
-const GarlicPage: React.FC<PageProps> = () => {
+const RecipePage: React.FC<PageProps> = () => {
   return (
     <main>
       <Hero
@@ -23,6 +23,6 @@ const GarlicPage: React.FC<PageProps> = () => {
   );
 };
 
-export default GarlicPage;
+export default RecipePage;
 
-export const Head: HeadFC = () => <title>About Us</title>;
+export const Head: HeadFC = () => <title>Recipe</title>;

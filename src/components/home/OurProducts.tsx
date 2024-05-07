@@ -1,7 +1,8 @@
-import React from "react";
-import ProductsCaurasel from "./ProductsCaurasel";
-import garlicPowderImage from "../../images/imgs/home/garlic-powder-slider.webp";
-import AnimateY from "../animation/AnimateY";
+import { Link } from 'gatsby';
+import React from 'react';
+import garlicPowderImage from '../../images/imgs/home/garlic-powder-slider.webp';
+import AnimateY from '../animation/AnimateY';
+import ProductsCaurasel from './ProductsCaurasel';
 
 const data = [
   {
@@ -26,12 +27,12 @@ function Product() {
 
           <ProductsCaurasel data={data} />
           <div className="w-full flex justify-center items-center pt-3 xl:pt-8">
-            <button
-              type="button"
+            <Link
+              to="/products"
               className="focus:outline-none text-white bg-[#004F2D] font-normal md:font-medium rounded-full text-md md:text-xl px-12 pt-1 pb-2"
             >
               See More
-            </button>
+            </Link>
           </div>
         </div>
       </AnimateY>

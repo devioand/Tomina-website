@@ -6,7 +6,7 @@ const MissionAndVision = () => {
     <section className="bg-[#282828]">
       <div className="gradient-mission-vission">
         <AnimateY>
-          <div className="md:py-[65px] py-8 flex md:flex-row flex-col justify-between mx-auto">
+          <div className="md:pb-16 md:pt-32 py-8 flex md:flex-row flex-col justify-between mx-auto">
             <div className="text-center px-12 xl:px-28 md:w-[44%] w-full md:pt-[49px] pb-5 md:pb-0">
               <h3 className="md:w-[293px] w-full text-white md:text-[64px] text-[24px] font-[800] md:leading-[78px] leading-[29px] md:text-justify text-center">
                 Our Mission

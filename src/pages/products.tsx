@@ -11,7 +11,7 @@ const ProductPage: React.FC<PageProps> = () => {
       <Hero />
       <Product />
       <div className="relative bg-size bg-[url('../images/imgs/products/garlicPowder.webp')] h-[50vh] md:h-[100vh] md:-mt-[108px]"></div>
-      <div className="bg-size bg-[url('../images/imgs/products/our-mission.webp')] h-[50vh] md:h-[100vh] md:-mt-[105px]"></div>
+      <div className="bg-size bg-[url('../images/imgs/products/our-mission.webp')] h-[50vh] md:h-[118vh] md:-mt-[120px]"></div>
       <CustomersTestimonials />
       <Footer curveColor="#282828" />
     </main>
@@ -20,4 +20,4 @@ const ProductPage: React.FC<PageProps> = () => {
 
 export default ProductPage;
 
-export const Head: HeadFC = () => <title>About Us</title>;
+export const Head: HeadFC = () => <title>Our Products</title>;

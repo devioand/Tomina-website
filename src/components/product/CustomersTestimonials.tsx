@@ -62,10 +62,10 @@ const data = [
 const CustomersTestimonials = () => {
   return (
     <section className="bg-[#282828] w-full relative">
-      <div className="pt-20 py-3 bg-gradient-to-t from-transparent to-red-800 opacity-40 w-full absolute top-0"></div>
+      <div className="pt-52 py-3 bg-gradient-to-t from-transparent to-red-900 opacity-40 w-full absolute top-0"></div>
       <AnimateY>
         <div className="pt-4 md:pt-8 pb-4 md:pb-16 w-full">
-          <div className="mx-auto max-w-[1037px] px-4 md:px-12">
+          <div className="mx-auto max-w-[1037px] px-4 md:px-12 md:mb-12">
             <div className="flex flex-col justify-center items-center ">
               <h2 className="text-24px lg:text-[64px] font-[800] text-white mb-2">
                 Testimonials
