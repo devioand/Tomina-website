@@ -1,16 +1,17 @@
 import React from 'react';
 import ProductsCaurasel from './ProductsCaurasel';
-import img from '../../images/imgs/home/powdered-garlic.webp';
+import garlicPowderImage from '../../images/imgs/home/garlic-powder-slider.webp';
+import TiltLine from '../TiltLine';
 
 const data = [
   {
-    img,
+    img:garlicPowderImage,
   },
   {
-    img,
+    img:garlicPowderImage,
   },
   {
-    img,
+    img:garlicPowderImage,
   },
 ];
 
@@ -32,6 +33,7 @@ function Product() {
           </button>
         </div>
       </div>
+      {/* <TiltLine /> */}
     </section>
   );
 }
