@@ -96,7 +96,7 @@ const TestimonialCaurosel = () => {
         <div ref={sliderRef} className="keen-slider">
           {data.map((item: any, _idx: number) => (
             <div key={_idx} className="keen-slider__slide">
-              <div className="mx-auto bg-white p-4 md:p-8 max-w-[250px] small:max-w-[350px] md:max-w-[600px] lg:max-w-[885px] rounded-md mb-8 md:mb-12">
+              <div className="mx-auto bg-white p-4 md:p-8 max-w-[250px] small:max-w-[350px] md:max-w-[600px] lg:max-w-[750px] xl:max-w-[885px] rounded-md mb-8 md:mb-12">
                 <p className="text-[#171717] text-[12px] font-[400] md:text-[20px] md:font-[500] mb-2 text-center">
                   {item.comment}
                 </p>
