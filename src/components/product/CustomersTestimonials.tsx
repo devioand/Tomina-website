@@ -1,64 +1,7 @@
 import React from 'react';
-import userImage from '../../images/customer.png';
 import AnimateY from '../animation/AnimateY';
 import TestimonialCaurosel from './TestimonialCaurosel';
 
-const data = [
-  {
-    comment:
-      'Massa placerat duis ultricies lacus sed turpis tincidunt id. Interdum varius sit amet mattis enim. Quis hendrerit dolor magna eget est lorem ipsum dolor. Sagittis scelerisque purus semper.',
-    user: 'Wilkins Micawber',
-    image: userImage,
-  },
-  {
-    comment:
-      'Massa placerat duis ultricies lacus sed turpis tincidunt id. Interdum varius sit amet mattis enim. Quis hendrerit dolor magna eget est lorem ipsum dolor. Sagittis scelerisque purus semper.',
-    user: 'Wilkins Micawber',
-    image: userImage,
-  },
-  {
-    comment:
-      'Massa placerat duis ultricies lacus sed turpis tincidunt id. Interdum varius sit amet mattis enim. Quis hendrerit dolor magna eget est lorem ipsum dolor. Sagittis scelerisque purus semper.',
-    user: 'Wilkins Micawber',
-    image: userImage,
-  },
-  {
-    comment:
-      'Massa placerat duis ultricies lacus sed turpis tincidunt id. Interdum varius sit amet mattis enim. Quis hendrerit dolor magna eget est lorem ipsum dolor. Sagittis scelerisque purus semper.',
-    user: 'Wilkins Micawber',
-    image: userImage,
-  },
-  {
-    comment:
-      'Massa placerat duis ultricies lacus sed turpis tincidunt id. Interdum varius sit amet mattis enim. Quis hendrerit dolor magna eget est lorem ipsum dolor. Sagittis scelerisque purus semper.',
-    user: 'Wilkins Micawber',
-    image: userImage,
-  },
-  {
-    comment:
-      'Massa placerat duis ultricies lacus sed turpis tincidunt id. Interdum varius sit amet mattis enim. Quis hendrerit dolor magna eget est lorem ipsum dolor. Sagittis scelerisque purus semper.',
-    user: 'Wilkins Micawber',
-    image: userImage,
-  },
-  {
-    comment:
-      'Massa placerat duis ultricies lacus sed turpis tincidunt id. Interdum varius sit amet mattis enim. Quis hendrerit dolor magna eget est lorem ipsum dolor. Sagittis scelerisque purus semper.',
-    user: 'Wilkins Micawber',
-    image: userImage,
-  },
-  {
-    comment:
-      'Massa placerat duis ultricies lacus sed turpis tincidunt id. Interdum varius sit amet mattis enim. Quis hendrerit dolor magna eget est lorem ipsum dolor. Sagittis scelerisque purus semper.',
-    user: 'Wilkins Micawber',
-    image: userImage,
-  },
-  {
-    comment:
-      'Massa placerat duis ultricies lacus sed turpis tincidunt id. Interdum varius sit amet mattis enim. Quis hendrerit dolor magna eget est lorem ipsum dolor. Sagittis scelerisque purus semper.',
-    user: 'Wilkins Micawber',
-    image: userImage,
-  },
-];
 const CustomersTestimonials = () => {
   return (
     <section className="bg-[#282828] w-full relative">
@@ -80,7 +23,7 @@ const CustomersTestimonials = () => {
               </p>
             </div>
           </div>
-          <TestimonialCaurosel data={data} />
+          <TestimonialCaurosel />
         </div>
       </AnimateY>
     </section>
