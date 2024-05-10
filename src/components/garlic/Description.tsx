@@ -3,7 +3,7 @@ import AnimateY from '../animation/AnimateY';
 
 const Description = () => {
   return (
-    <section className='bg-[url("../images/imgs/recipes/fried-fish.webp")] bg-center bg-contain bg-norepeat'>
+    <section className='bg-[url("../images/imgs/recipes/fried-fish.webp")] bg-center bg-cover bg-no-repeat'>
       <AnimateY>
         <div className="flex py-12 px-5 md:px-32">
           <div className="md:backgroundColor grid lg:grid-cols-2 p-2 gap-y-4">

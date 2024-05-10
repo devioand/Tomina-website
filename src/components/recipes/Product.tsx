@@ -9,7 +9,7 @@ const Product = () => {
         <AnimateY>
           <div className="max-w-[1536px] mx-auto flex lg:flex-row flex-col-reverse px-12 xl:px-28 pt-12 pb-24">
             <div className="lg:min-w-[50%] w-full">
-              <p className="text-white text-[12px] md:text-[20px] font-normal text-justify lg:text-left">
+              <p className="text-white text-[12px] md:text-[20px] font-normal md:font-[500] text-justify lg:text-left">
                 Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed
                 diam nonummy nibh euismod tincidunt ut laoreet dolore magna
                 aliquam erat volutpat. Ut wisi enim ad minim veniam, quis

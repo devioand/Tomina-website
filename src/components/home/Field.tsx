@@ -1,6 +1,7 @@
 import React from 'react';
 import img from '../../images/imgs/home/rounded-onions.webp';
 import AnimateY from '../animation/AnimateY';
+import PlayButton from '../svgs/solid/PlayButton';
 
 function Field() {
   return (
@@ -11,10 +12,15 @@ function Field() {
             <h2 className="text-[24px] font-[800] md:text-6xl text-white text-center md:mt-8 mb-4 md:mb-12 ">
               Tomina Field Tour
             </h2>
-            <img
-              src={img}
-              className="rounded-full md:rounded-none max-w-[300px] max-h-[200px] md:max-w-[500px] md:max-h-[220px] lg:max-h-[300px] XXL:max-w-[700px] XXL:max-h-[380px] object-center object-contain"
-            />
+            <div className="relative">
+              <img
+                src={img}
+                className="rounded-full md:rounded-none max-w-[300px] max-h-[200px] md:max-w-[500px] md:max-h-[220px] lg:max-h-[300px] XXL:max-w-[700px] XXL:max-h-[380px] object-center object-contain"
+              />
+              <span className='absolute top-[40%] left-[45%] md:left-[42%]'>
+              <PlayButton />
+              </span>
+            </div>
             <p className="text-sm font-medium text-white mt-4 text-center">
               Watch a tour of our facility
             </p>
