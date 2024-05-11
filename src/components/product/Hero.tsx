@@ -1,6 +1,6 @@
-import React from 'react';
-import Navigation from '../nav/Navigation';
-import AnimateY from '../animation/AnimateY';
+import React from "react";
+import Navigation from "../nav/Navigation";
+import AnimateY from "../animation/AnimateY";
 
 const Hero = () => {
   return (

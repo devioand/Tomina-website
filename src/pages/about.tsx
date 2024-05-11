@@ -7,6 +7,7 @@ import OurCompany from "../components/about/OurCompany";
 import OurTeam from "../components/about/OurTeam";
 import OurQuality from "../components/about/OurQuality";
 import Footer from "../components/Footer";
+import OurCompanyTour from "../components/about/OurCompanyTour";
 
 const AboutPage: React.FC<PageProps> = () => {
   return (
@@ -14,6 +15,7 @@ const AboutPage: React.FC<PageProps> = () => {
       <AboutUsHeader />
       <OurQuality />
       <MissionAndVision />
+      <OurCompanyTour />
       <OurCompany />
       <OurTeam />
       <Certificates />
@@ -24,4 +26,4 @@ const AboutPage: React.FC<PageProps> = () => {
 
 export default AboutPage;
 
-export const Head: HeadFC = () => <title>About Us</title>;
+export const Head: HeadFC = () => <title>About us</title>;

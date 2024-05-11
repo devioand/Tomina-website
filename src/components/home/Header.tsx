@@ -1,11 +1,10 @@
 import * as React from 'react';
-import Navigation from '../nav/Navigation';
-import TickBar from './TickBar';
 import AnimateY from '../animation/AnimateY';
+import Navigation from '../nav/Navigation';
 
 function Header() {
   return (
-    <div className="relative bg-center bg-cover bg-norepeat h-[100vh] bg-[url('../images/imgs/home/header.webp')]">
+    <div className="relative bg-center bg-cover bg-no-repeat h-[100vh] bg-[url('../images/imgs/home/header.webp')]">
       <div className="flex justify-center items-center h-[100vh]">
         <div className="block absolute left-0 right-0 top-12 lg:top-20">
           <Navigation />
@@ -23,7 +22,6 @@ function Header() {
           </div>
         </AnimateY>
       </div>
-      <TickBar />
     </div>
   );
 }

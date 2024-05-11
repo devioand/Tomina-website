@@ -57,13 +57,13 @@ function Navigation() {
               </Link>
             </ul>
           </div>
-          <div className="">
+          <Link to="/" className="">
             <img
               src={Logo}
               alt="Logo_of_Tomina"
               className="relative top-[0rem] w-[8rem] lg:w-[12rem] z-10 hidden lg:block"
             />
-          </div>
+          </Link>
           <div className="lg:bg-[#B8AA84] py-[.3rem] px-[3rem] lg:rounded-full lg:relative lg:left-[-2rem]">
             <ul className="flex justify-center flex-col lg:flex-row gap-5">
               <Link to="/products">

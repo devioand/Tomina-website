@@ -1,6 +1,7 @@
+import { Link } from 'gatsby';
 import React from 'react';
-import Slider from './RecipeCarousel';
 import AnimateY from '../animation/AnimateY';
+import Slider from './RecipeCarousel';
 
 const Recipes = () => {
   return (
@@ -13,12 +14,12 @@ const Recipes = () => {
           <Slider />
         </div>
         <div className="flex justify-center items-center">
-          <button
-            type="button"
+          <Link
+            to="/recipe"
             className="focus:outline-none border border-2 text-white font-medium rounded-full text-xl px-12 pt-2 pb-3"
           >
             Learn more
-          </button>
+          </Link>
         </div>
       </AnimateY>
     </section>
