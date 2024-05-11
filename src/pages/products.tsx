@@ -14,7 +14,7 @@ const ProductPage: React.FC<PageProps> = () => {
       <Product />
       <div className="relative">
         <StaticImage
-          src="../images/imgs/products/garlicPowder.webp"
+          src="../images/imgs/products/our-products.webp"
           alt="bottles"
           // layout="fullWidth"
           placeholder="blurred"
@@ -25,7 +25,7 @@ const ProductPage: React.FC<PageProps> = () => {
         </span>
       </div>
       <StaticImage
-        src="../images/imgs/products/our-mission.jpg"
+        src="../images/imgs/products/Products.webp"
         alt="Showcase"
         placeholder="blurred"
       />
