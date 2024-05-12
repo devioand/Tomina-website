@@ -1,8 +1,8 @@
-import React from 'react';
-import img1 from '../../images/imgs/products/peeled-garlic.webp';
-import img from '../../images/nuts.png';
-import Slider from './Slider';
-import AnimateY from '../animation/AnimateY';
+import React from "react";
+import img1 from "../../images/imgs/products/peeled-garlic.webp";
+import img from "../../images/imgs/products/nuts.webp";
+import Slider from "./Slider";
+import AnimateY from "../animation/AnimateY";
 
 const Api = [img, img1];
 const Products = () => {

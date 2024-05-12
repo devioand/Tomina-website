@@ -1,8 +1,8 @@
-import { Link } from 'gatsby';
-import React from 'react';
-import garlicPowderImage from '../../images/imgs/home/garlic-powder-slider.webp';
-import AnimateY from '../animation/AnimateY';
-import ProductsCaurasel from './ProductsCaurasel';
+import { Link } from "gatsby";
+import React from "react";
+import garlicPowderImage from "../../images/imgs/home/garlic-powder-slider.webp";
+import AnimateY from "../animation/AnimateY";
+import ProductsCaurasel from "./ProductsCaurasel";
 
 const data = [
   {
