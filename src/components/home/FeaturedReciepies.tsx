@@ -1,7 +1,7 @@
-import React from 'react';
-import FeaturedReciepiesCaurasel from './FeaturedReciepiesCaurasel';
-import img from '../../images/Group2.png';
-import AnimateY from '../animation/AnimateY';
+import React from "react";
+import FeaturedReciepiesCaurasel from "./FeaturedReciepiesCaurasel";
+import img from "../../images/Group2.webp";
+import AnimateY from "../animation/AnimateY";
 
 const data = [
   {
