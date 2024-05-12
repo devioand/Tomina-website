@@ -9,8 +9,8 @@ const OurQuality = () => {
     <section className="gradient-bg">
       <AnimateY>
       <div className="max-w-[1536px] mx-auto flex lg:flex-row flex-col-reverse px-12 xl:px-28 pt-12 pb-4">
-        <div className="lg:min-w-[50%] w-full">
-          <p className="text-white text-[12px] md:text-[20px] font-normal text-justify lg:text-left">
+        <div className="lg:min-w-[60%] w-full">
+          <p className="text-white text-[12px] lg:text-[20px] font-normal lg:font-[500] text-justify lg:text-left lg:pr-12">
             Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
             nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat
             volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation
@@ -25,7 +25,7 @@ const OurQuality = () => {
             <img
               src={Organic}
               alt="organic"
-              className="md:w-[105px] w-[42px] md:h-[81px] h-[27px] object-contain object-center"
+              className="lg:w-[105px] w-[42px] lg:h-[81px] h-[27px] object-contain object-center"
             />
             <img
               src={Trusted}
@@ -34,10 +34,10 @@ const OurQuality = () => {
             />
           </div>
         </div>
-        <div className="lg:min-w-[50%] w-full z-10 mb-8 lg:mb-0 flex justify-center lg:justify-end items-center">
+        <div className="lg:min-w-[40%] w-full z-10 mb-8 lg:mb-0 flex justify-center lg:justify-end items-center">
           <img
             src={onionImage}
-            className="-mt-[80px] md:-mt-[100px] lg:-mb-[150px] object-contain object-center"
+            className="lg:-mt-[200px] lg:-mb-[150px] object-contain object-center"
           />
         </div>
       </div>

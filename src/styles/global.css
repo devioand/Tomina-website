@@ -9,6 +9,7 @@
 
 body {
   transition: .5s;
+  font-family: 'montserrat', sans-serif;
 }
 
 .amimation-div {
@@ -124,14 +125,27 @@ body {
   );
 }
 
-.gradient-bg {
+/* .gradient-bg {
   background: rgb(165, 30, 30);
   background: linear-gradient(
     180deg,
     rgba(165, 30, 30, 0.7849264705882353) 0%,
     rgba(184, 170, 132, 0.9866071428571429) 47%
   );
+} */
+
+.gradient-bg {
+  background: 
+    linear-gradient(
+      180deg, 
+      rgba(165, 30, 30, 0.7849264705882353) 0%, 
+      rgba(184, 170, 132, 0.9866071428571429) 47%
+    ),
+    url('../images/imgs/about/wood-bg.png');
+  background-size: cover;
+  background-blend-mode: multiply;
 }
+
 
 .about-header {
   background: rgb(165, 30, 30);

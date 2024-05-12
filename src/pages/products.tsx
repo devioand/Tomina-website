@@ -28,6 +28,7 @@ const ProductPage: React.FC<PageProps> = () => {
         src="../images/imgs/products/Products.webp"
         alt="Showcase"
         placeholder="blurred"
+        className="w-full max-h-screen xxl:h-auto"
       />
       <CustomersTestimonials />
       <Footer curveColor="#282828" />

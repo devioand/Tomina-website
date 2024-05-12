@@ -1,9 +1,9 @@
+import { Link } from 'gatsby';
 import * as React from 'react';
 import { useState } from 'react';
-import Logo from '../../images/Logo.png';
 import { HiOutlineBars3 } from 'react-icons/hi2';
 import { RxCross1 } from 'react-icons/rx';
-import { Link } from 'gatsby';
+import Logo from '../../images/Logo.png';
 
 function Navigation() {
   const [bar, setbar] = useState(true);
@@ -14,7 +14,7 @@ function Navigation() {
   };
 
   return (
-    <div className="font-mono text-white">
+    <div className="text-white">
       <div
         className={`${
           show ? 'bg-[#B8AA84]' : 'bg-transparent'
@@ -48,12 +48,14 @@ function Navigation() {
       >
         <div className="flex justify-center items-center flex-col py-28 lg:py-0 lg:flex-row">
           <div className="lg:bg-[#B8AA84] lg:py-[.3rem] px-[3rem] lg:rounded-full lg:relative lg:left-[2rem]">
-            <ul className="flex flex-col lg:flex-row gap-5">
+            <ul className="flex flex-col lg:flex-row gap-8">
               <Link to="/">
-                <li className="lg:py-1 text-xl">Home</li>
+                <li className="lg:py-1 text-[20px] font-[500]">Home</li>
               </Link>
               <Link to="/about">
-                <li className="pb-5 lg:py-1 text-xl">About Us</li>
+                <li className="pb-5 lg:py-1 text-[20px] font-[500]">
+                  About Us
+                </li>
               </Link>
             </ul>
           </div>
@@ -65,12 +67,12 @@ function Navigation() {
             />
           </Link>
           <div className="lg:bg-[#B8AA84] py-[.3rem] px-[3rem] lg:rounded-full lg:relative lg:left-[-2rem]">
-            <ul className="flex justify-center flex-col lg:flex-row gap-5">
+            <ul className="flex justify-center flex-col lg:flex-row gap-8">
               <Link to="/products">
-                <li className="lg:py-1 text-xl ">Products</li>
+                <li className="lg:py-1 text-[20px] font-[500] ">Products</li>
               </Link>
               <Link to="/recipes">
-                <li className="lg:py-1 text-xl">Recipes</li>
+                <li className="lg:py-1 text-[20px] font-[500]">Recipes</li>
               </Link>
             </ul>
           </div>

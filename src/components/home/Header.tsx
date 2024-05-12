@@ -11,7 +11,7 @@ function Header() {
         </div>
         <AnimateY>
           <div className="max-w-[320px] sm:max-w-[400px] md:max-w-[600px] lg:max-w-[900px] px-4 md:px-12 lg:px-24">
-            <h1 className="max-w-[300px] sm:max-w-[500px] XXL:max-w-[700px] text-3xl sm:text-6xl 2xl:text-8xl md:leading-tight text-white text-center font-bold">
+            <h1 className="max-w-[220px] sm:max-w-[500px] XXL:max-w-[600px] 2xl:max-w-[700px] text-[24px] sm:text-[64px] 2xl:text-[95px] md:leading-tight text-white text-center font-[800]">
               FRESH NOW AND ALWAYS
             </h1>
             <div className="flex justify-center relative hidden md:block">

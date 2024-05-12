@@ -1,7 +1,8 @@
-import React from "react";
-import FeaturedReciepiesCaurasel from "./FeaturedReciepiesCaurasel";
-import img from "../../images/Group2.webp";
-import AnimateY from "../animation/AnimateY";
+import { Link } from 'gatsby';
+import React from 'react';
+import img from '../../images/Group2.webp';
+import AnimateY from '../animation/AnimateY';
+import FeaturedReciepiesCaurasel from './FeaturedReciepiesCaurasel';
 
 const data = [
   {
@@ -35,12 +36,12 @@ function FeaturedRecipies() {
 
           <FeaturedReciepiesCaurasel data={data} />
           <div className="w-full flex justify-center items-center pt-3 xl:pt-8">
-            <button
-              type="button"
+            <Link
+              to="/recipe"
               className="focus:outline-none text-white border-2 border-white font-normal md:font-medium rounded-full text-md md:text-xl px-12 pt-1 pb-2"
             >
               Learn More
-            </button>
+            </Link>
           </div>
         </div>
       </AnimateY>

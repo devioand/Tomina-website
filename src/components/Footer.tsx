@@ -53,26 +53,26 @@ const Footer = ({ curveColor }: any) => {
               </li>
               <li className="text-sm lg:text-[15px] font-normal lg:font-medium leading-[18px] text-white">
                 {' '}
-                <Link to="/">Home Branch</Link>
+                <Link to="/about">About Us</Link>
               </li>
               <li className="text-sm lg:text-[15px] font-normal lg:font-medium leading-[18px] text-white">
                 {' '}
-                <Link to="/">Meet Christopher Family</Link>
+                <Link to="/products">Products</Link>
               </li>
               <li className="text-sm lg:text-[15px] font-normal lg:font-medium leading-[18px] text-white">
-                <Link to="/">Food Security</Link>
+                <Link to="/recipes">Recipies</Link>
+              </li>
+              {/* <li className="text-sm lg:text-[15px] font-normal lg:font-medium leading-[18px] text-white">
+                
               </li>
               <li className="text-sm lg:text-[15px] font-normal lg:font-medium leading-[18px] text-white">
-                <Link to="/">Field to Fork</Link>
-              </li>
-              <li className="text-sm lg:text-[15px] font-normal lg:font-medium leading-[18px] text-white">
-                <Link to="/">Corporate Social Responsibility</Link>
-              </li>
+                
+              </li> */}
             </ul>
           </div>
           <div className="sm:w-[20%] w-full">
             <ul className="space-y-2">
-              <li className="text-sm lg:text-[15px] font-normal lg:font-medium leading-[18px] text-white">
+              {/* <li className="text-sm lg:text-[15px] font-normal lg:font-medium leading-[18px] text-white">
                 <Link to="/">CR in the News</Link>
               </li>
               <li className="text-sm lg:text-[15px] font-normal lg:font-medium leading-[18px] text-white">
@@ -90,12 +90,12 @@ const Footer = ({ curveColor }: any) => {
               </li>
               <li className="text-sm lg:text-[15px] font-normal lg:font-medium leading-[18px] text-white">
                 <Link to="/">Tradtional Garlic</Link>
-              </li>
+              </li> */}
             </ul>
           </div>
           <div className="sm:w-[20%] w-full">
             <ul className="space-y-2">
-              <li className="text-justify text-sm lg:text-[15px] font-normal lg:font-medium leading-[18px] text-white">
+              {/* <li className="text-justify text-sm lg:text-[15px] font-normal lg:font-medium leading-[18px] text-white">
                 <Link to="/"> Beyond Garlic </Link>
               </li>
               <li className="text-justify text-sm lg:text-[15px] font-normal lg:font-medium leading-[18px] text-white">
@@ -106,7 +106,7 @@ const Footer = ({ curveColor }: any) => {
               </li>
               <li className="text-justify text-sm lg:text-[15px] font-normal lg:font-medium leading-[18px] text-white">
                 <Link to="/"> Contact Us </Link>
-              </li>
+              </li> */}
             </ul>
           </div>
         </div>
